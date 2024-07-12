@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Variables CSS pour les couleurs */
+:root {
+    --primary-color: #007bff;
+    --hover-color: red;
+    --hover-border-color: grey;
+    --text-color: #fff;
+    --title-color: red;
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: brown;
+    background-color: antiquewhite;
+}
+
+/* Section Formulaire */
+.form-group {
+    margin-bottom: 4.5rem; /* Espacement entre les éléments du formulaire */
+}
+
+.form-control-file {
+    text-align: center; /* Alignement du texte au centre */
+    border: 2px solid red; /* Bordure du champ de fichier */
+    padding: 20px; /* Espacement interne */
+    border-radius: 5px; /* Bord arrondi */
+    margin: 10px;
+}
+
+/* Section Boutons */
+.btn-primary {
+    background-color:brown; /* Couleur de fond du bouton */
+    border-color: var(--primary-color); /* Couleur de la bordure du bouton */
+    color: var(--text-color); /* Couleur du texte */
+    position: absolute; /* Position absolue pour le centrage */
+    left: 50%; /* Alignement horizontal au centre */
+    width: 200px;
+    transform: translateX(-50%); /* Décalage de moitié de sa propre largeur vers la gauche */
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-color); /* Couleur de fond du bouton au survol */
+    border-color: var(--hover-border-color); /* Couleur de la bordure du bouton au survol */
+}
+
+/* Section Titres */
+h1 {
+    color: brown; /* Couleur du texte */
+    font-size: 2.5rem; /* Taille de police */
+}
+
+h2 {
+    padding: 80px;
+    font-size: 2rem; /* Taille de police */
+    font-weight: 500; /* Poids de la police */
+    color:brown;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
